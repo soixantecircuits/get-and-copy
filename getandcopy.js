@@ -1,17 +1,17 @@
-var util     = require('util'),
-    _        = require('underscore'),
-    spawn    = require('child_process').spawn,
-    readdirp = require('readdirp'),
-    path     = require('path'),
-    es       = require('event-stream');
+var util = require('util'),
+  _ = require('underscore'),
+  spawn = require('child_process').spawn,
+  readdirp = require('readdirp'),
+  path = require('path'),
+  es = require('event-stream');
 
 var conf_screen = require('./screens.json'),
-var conf = require('./conf.json');
+  conf = require('./conf.json');
 
 var site = conf.site,
   extension = '.mp3,.mpg,.mpeg,.avi,.mov,.mp4,.html',
-  movie    = '',
-  user     = conf.user,
+  movie = '',
+  user = conf.user,
   robot_state = 'off',
   agent = 'getandcopy/0.1',
   //The A option that should allow to avoid downloading messy thinfs does not work
@@ -47,7 +47,7 @@ wget.on('exit', function(code) {
       if (el.name === movie.path) {
         console.log("Processing : " + el.name + " to " + el.dest);
         //cp = spawn('cp', [movie.path, el.dest]);
-        var scp = spawn('scp', [movie.path, user+"@"+el.dest]);
+        var scp = spawn('scp', [movie.path, user + "@" + el.dest]);
 
         scp.stdout.on('data', function(data) {
           process.stdout.write('stdout: ' + data);
