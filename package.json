@@ -1,0 +1,24 @@
+{
+   "name":"get-and-copy",
+   "description":"A node script to copy files from a server recursively and copy them over to local network",
+   "version":"0.0.1",
+   "homepage":"https://github.com/soixantecircuits/get-and-copy",
+   "repository":"git@github.com:soixantecircuits/get-and-copy.git",
+   "author":"Soixante circuits <contact@soixantecircuits.fr> (http://soixantecircuits.fr/)",
+   "main":"./getandcopy.js",
+   
+   "dependencies":{
+      "readdirp":"*",
+      "event-stream":"*",
+      "underscore":"*"
+   },
+   "engines":{
+      "node":">= 0.8.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/wearefractal/APPNAME/raw/master/LICENSE"
+      }
+   ]
+}

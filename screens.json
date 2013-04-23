@@ -1,0 +1,52 @@
+{
+  "screens": [
+    {
+      "crop_height": 600,
+      "crop_width": 800,
+      "margin_left": 200,
+      "margin_top": 200,
+      "name": "00-Hyere-CACHIER-EXTRA-FELIPE-H264.mov",
+      "dest": "45"
+    },
+    {
+      "crop_height": 1024,
+      "crop_width": 200,
+      "margin_left": 0,
+      "margin_top": 0,
+      "name": "00-HyereCACHIER-EXTRA-FELIPE-BOOK-MUR-H264.mov",
+      "dest": "01"
+    },
+    {
+      "crop_height": 1024,
+      "crop_width": 200,
+      "margin_left": 0,
+      "margin_top": 0,
+      "name": "00-HyerePARUTION-MAGAZINES-H264.mov",
+      "dest": "aasa12"
+    },
+    {
+      "crop_height": 1024,
+      "crop_width": 200,
+      "margin_left": 0,
+      "margin_top": 0,
+      "name": "00-HYERES-DEFILE-640-360-HORISONTAL-bw-H264.mov",
+      "dest": "12123_"
+    },
+    {
+      "crop_height": 1024,
+      "crop_width": 200,
+      "margin_left": 0,
+      "margin_top": 0,
+      "name": "00-HYERES-DEFILE-640-360-HORISONTAL-H264.mov",
+      "dest": "pi34"
+    },
+    {
+      "crop_height": 1024,
+      "crop_width": 200,
+      "margin_left": 0,
+      "margin_top": 0,
+      "name": "01-STRIPES-ON-STRIKE-SS04-BOOK-MUR-H264",
+      "dest": "pi33"
+    }
+  ]
+}
